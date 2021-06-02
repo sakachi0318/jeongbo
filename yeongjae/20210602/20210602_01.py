@@ -1,7 +1,7 @@
 for i in range(int(input())):
     num=input()
-    sum=int(num)+int(num[::-1])
-    if str(sum) == str(sum)[::-1]:
-        print('%d:True'%sum)
+    s=int(num)+int(num[::-1])
+    if str(s) == str(s)[::-1]:
+        print('%d:True'%s)
     else:
-        print('%d:False'%sum)
+        print('%d:False'%s)
